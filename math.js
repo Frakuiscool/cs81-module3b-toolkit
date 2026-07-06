@@ -6,7 +6,13 @@ function square(n) {
   return n * n;
 }
 
-// Checks if a number is even
 function isEven(n) {
   return n % 2 === 0;
 }
+
+function isOdd(n) {
+  return n % 2 !== 0;
+}
+
+function multiply(a, b) {
+  return a * b;
